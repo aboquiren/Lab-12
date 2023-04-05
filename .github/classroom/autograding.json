@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "T",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -rP",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "I",
+      "setup": "",
+      "run": "python mint.py",
+      "input": "",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
